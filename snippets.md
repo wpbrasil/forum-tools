@@ -1,39 +1,70 @@
 # Snippets para ajudar responder perguntas e violações de regras
 
 ## Perguntas comuns
+* [Não é possível acessar o painel](#n-o-poss-vel-acessar-o-painel)
+* [Erro relacionado a plugin ou conflito de tema](#erro-relacionado-a-plugin-ou-conflito-de-tema)
+* [Erro relacionado a arquivos do próprio WordPress que estão faltando ou corrompidos](#erro-relacionado-a-arquivos-do-pr-prio-wordpress-que-est-o-faltando-ou-corrompidos)
+* [Erros de falta de memória](#erros-de-falta-de-mem-ria)
+* [Erro 500: Erro interno do servidor (Internal Server Error)](#erro-500-erro-interno-do-servidor-internal-server-error-)
+* [Hackeado/Invadido?](#hackeado-invadido-)
+* [Limite de Upload de Arquivo](#limite-de-upload-de-arquivo)
+* [Downgrading/Reversão de atualização de versão](#downgrading-revers-o-de-atualiza-o-de-vers-o)
+* [Blog do WordPress.com](#blog-do-wordpress-com)
+* [Suporte de Plugin/Tema em um fórum não específico do Plugin/Tema](#suporte-de-plugin-tema-em-um-f-rum-n-o-espec-fico-do-plugin-tema)
+* [Pedindo Suporte para um Produto Comercial](#pedindo-suporte-para-um-produto-comercial)
+* [Serviço de Hospedagem Grátis](#servi-o-de-hospedagem-gr-tis)
+* [Recomendações de Hospedagem](#recomenda-es-de-hospedagem)
+* [Oferecendo Pagamento/Contratação](#oferecendo-pagamento-contrata-o)
+* [Chegando aos Limites do Suporte Grátis](#chegando-aos-limites-do-suporte-gr-tis)
+* [Pedindo Acesso Administrativo](#pedindo-acesso-administrativo)
+* [Pedido de Feedback para Site](#pedido-de-feedback-para-site)
+* [Discussão sobre GPL](#discuss-o-sobre-gpl)
+* [Pedido de Suporte Não-GPL](#pedido-de-suporte-n-o-gpl)
+* [Quando pessoas reclamam que ‘WordPress está hospedando um site’](#quando-pessoas-reclamam-que-wordpress-est-hospedando-um-site-)
+* [Quando pessoas querem que suas contas no WordPress.org sejam excluídas](#quando-pessoas-querem-que-suas-contas-no-wordpress-org-sejam-exclu-das)
+* [Quando você quer avisar o usuário para não editar a folha de estilo do seu tema diretamente](#quando-voc-quer-avisar-o-usu-rio-para-n-o-editar-a-folha-de-estilo-do-seu-tema-diretamente)
+* [Quando um usuário precisa fazer mudanças mais significativas e um plugin de CSS personalizado não vai adiantar - é hora de usar um tema filho.](#quando-um-usu-rio-precisa-fazer-mudan-as-mais-significativas-e-um-plugin-de-css-personalizado-n-o-vai-adiantar-hora-de-usar-um-tema-filho-)
+* [Quando você quer que um usuário marque seu próprio tópico como resolvido](#quando-voc-quer-que-um-usu-rio-marque-seu-pr-prio-t-pico-como-resolvido)
+
+## Respostas predefinidas para Multisite
+* [Problemas criando subsites](#problemas-criando-subsites)
+* [Eu quero que todos os meus subsites sejam idênticos em conteúdo exceto por [uma coisa qualquer]](#eu-quero-que-todos-os-meus-subsites-sejam-id-nticos-em-conte-do-exceto-por-uma-coisa-qualquer-)
+* [Como usar multisite para uma rede multi-idioma](#como-usar-multisite-para-uma-rede-multi-idioma)
+
+## Perguntas Comuns
 
 ### Não é possível acessar o painel
 Tente [desabilitar manualmente todos os seus plugins](https://codex.wordpress.org/pt-br:FAQ_Resolvendo_Problemas#Como_desativar_todos_os_plugins_quando_n.C3.A3o_poder_acessar_os_menus_administrativos.3F) (não é preciso acesso ao painel). Se isso resolver, reative-os um a um até saber qual deles está causando o problema.
- 
+
 Se isso não resolver, acesse seu servidor via [SFTP ou FTP](https://codex.wordpress.org/pt-br:Clientes_FTP), ou por algum gerenciador de arquivos que a sua empresa de hospedagem forneça, navegue até ‘wp-content/themes/’ e renomeie o diretório do tema atualmente ativo. Isso forçará a ativação do tema padrão e, com alguma sorte, verificar um problema específico do tema (funções do tema também podem interferir, assim como os plugins).
 
 ### Erro relacionado a plugin ou conflito de tema
 Tente desativar todos os plugins. Se isso resolver, reative-os um a um até saber qual deles está causando o problema.
- 
+
 Se isso não resolver, tente ativar um tema padrão da sua versão do WordPress para verificar se é um específico do tema (funções do tema também podem interferir, assim como os plugins).
 
 ### Erro relacionado a arquivos do próprio WordPress que estão faltando ou corrompidos
 Tente fazer o [download do WordPress](https://br.wordpress.org/) novamente, acesse seu servidor via [SFTP ou FTP](https://codex.wordpress.org/pt-br:Clientes_FTP), ou por algum gerenciador de arquivos que a sua empresa de hospedagem forneça, exclua e então substitua sua cópia de tudo com os arquivos que você baixou, exceto o arquivo ‘wp-config.php’ e o diretório ‘/wp-content/’. Isso irá substituir todos os seus arquivos do Wordpress sem nenhum prejuízo ao seu conteúdo ou configurações.
- 
+
 Em alguns programas não são confiáveis quando se tenta sobrescrever arquivos, então não esqueça de excluir os arquivos originais antes de fazer o upload.
 
 ### Erros de falta de memória
 Mesmo que você esteja vendo esse erro de repente (nenhuma tarefa específica foi executada para causar o erro) ou frequentemente, tente desativar todos os plugins para verificar se o erro é de algum plugin específico e trocar de tema pelo mesmo motivo.
- 
+
 Caso contrário, aqui estão três formas de aumentar a alocação de memória para o PHP:
- 
+
 1. Se você pode editar ou sobrescrever o arquivo `php.ini` do sistema, aumente o limite de memória. Por exemplo `memory_limit = 128M`
- 
+
 2. Se você não pode editar ou sobrescrever o arquivo `php.ini` do sistema, adicione `php_value memory_limit 128M` no seu arquivo `.htaccess`.
- 
+
 3. Se nada disso funcionar, você precisará pedir para a sua empresa de hospedagem que aumente temporariamente a alocação de memória da sua conta.
- 
+
 (nos exemplos acima o limite está configurado para 128MB).
 
 
 ### Erro 500: Erro interno do servidor (Internal Server Error)
 Erros internos do servidor (erro 500) são frequentemente causados por conflitos de plugin ou funções do tema, então se você consegue acessar o painel do WordPress e tente desativar todos os plugins. Se você não tem acesso ao painel, tente [desabilitar manualmente todos os seus plugins](https://codex.wordpress.org/pt-br:FAQ_Resolvendo_Problemas#Como_desativar_todos_os_plugins_quando_n.C3.A3o_poder_acessar_os_menus_administrativos.3F) (não é preciso acesso ao painel). Se isso resolver, reative-os um a um até saber qual deles está causando o problema.
- 
+
 Se isso não resolver, acesse seu servidor via SFTP ou FTP, ou por algum gerenciador de arquivos que a sua empresa de hospedagem forneça, navegue até ‘wp-content/themes/’ e renomeie o diretório do tema atualmente ativo. Isso forçará a ativação do tema padrão e, com alguma sorte, verificar um problema específico do tema (funções do tema também podem interferir, assim como os plugins).
 
 
@@ -56,7 +87,7 @@ O tamanho máximo de upload é controlado pelo servidor, não pelo WordPress. Aq
 
 ### Downgrading/Reversão de atualização de versão
 A não ser que você tenha um backup que possa restaurar, voltar para uma versão anterior é um processo perigoso, motivo pelo qual é recomendada a realização do backup tanto nas instrução de upgrade quanto na tela de atualização automática.
- 
+
 Seria melhor resolver o seu problema atual. Você poderia descrever o que está dando errado?
 
 
@@ -70,7 +101,7 @@ Recomendo que você pergunte no [URL do fórum do plugin/tema] para que os desen
 
 ### Pedindo Suporte para um Produto Comercial
 Se você está usando um tema ou plugin comercializados e precisa de suporte, por favor vá até o fórum oficial do produto. Para ajudarmos a comunidade WordPress, e encorajarmos a inovação e o progresso, achamos importante direcionar as pessoas para estes locais.
- 
+
 [URL do suporte do produto, se for fácil de encontrar]
 
 
@@ -78,9 +109,9 @@ Voluntários do fórum não recebem acesso a produtos comercializados, então el
 
 ### Serviço de Hospedagem Grátis
 (para recomendações de serviços de hospedagem grátis e/ou problemas encontrados em hospedagens grátis)
- 
+
 Nós normalmente não recomendamos serviços de hospedagem grátis por aqui, por eles frequentemente oferecerem servidores com poucos recursos, que impedem que o WordPress funcione corretamente.
- 
+
 Se você quer um blog grátis, tente o WordPress.com como alternativa. Se você não se importa em pagar, a equipe do WordPress fornece [uma lista de recomendações de serviços de hospedagem](https://wordpress.org/hosting/) [em inglês].
 
 
@@ -89,13 +120,13 @@ Por favor coloque a tag “modlook” no tópico para que um moderador possa fec
 
 
 Como dito no [artigo de Boas Vindas do Fórum](https://codex.wordpress.org/pt-br:Bem-vindos_ao_F%C3%B3rum_de_Suporte#Fechando_t.C3.B3picos), tópicos como este são fechados devido a quantidade de spam que eles atraem.
- 
+
 A equipe do WordPress fornece [uma lista de recomendações de serviços de hospedagem](https://wordpress.org/hosting/). Para mais detalhes ou outras recomendações, por favor pesquise nos fóruns ou via Google (ou por seu buscador favorito).
 
 
 ### Oferecendo Pagamento/Contratação
 Por favor coloque a tag “modlook” no tópico para que um moderador possa fechá-lo.
- 
+
 Por favor tente http://jobs.wordpress.net/ ou http://directory.codepoet.com/ e não aceite qualquer oferta de contratação publicada neste fórum.
 
 
@@ -104,21 +135,21 @@ Este tópico será fechado seguindo as Regras do Fórum.
 
 ### Chegando aos Limites do Suporte Grátis
 Neste ponto chegamos aos limites do que a maioria da comunidade aqui tem a intenção de oferecer em seu tempo livre (todos aqui são voluntários). Considere contratar alguém para quem você possa dar acesso direto ao seu site a fim de um conserto mais eficiente do que podemos oferecer aqui.
- 
+
 Por favor tente http://jobs.wordpress.net/ ou http://directory.codepoet.com/ e não aceite qualquer oferta de contratação publicada neste fórum.
- 
+
 Nós manteremos este tópico aberto, a não ser que ele se distancie muito do assunto, para o caso de alguém da comunidade querer oferecer maior ajuda de graça.
 
 
 ### Pedindo Acesso Administrativo
 Por favor não faça isso: quando você pedir acesso ao painel e/ou FTP você estará indo longe demais e isso não é legal.
- 
+
 https://codex.wordpress.org/pt-br:Bem-vindos_ao_F%C3%B3rum_de_Suporte#Coisas_para_evitar_e_mau_comportamento
- 
+
 Se você recebeu credenciais administrativas, você estará potencialmente sujeito a qualquer dano possível que possa ser causado, não só por você mesmo mas por qualquer um que acesse o sistema. Mesmo que você não forneça garantias.
 
 A menos que você deseje se responsabilizar por aquela instalação do usuário a partir de agora (e eles NÃO deveriam deixar você fazer isso) então por favor não peça ou sugira que alguém forneça os dados de acesso ao painel ou FTP.
- 
+
 Você pode fornecer assistência aqui, pedir dados de log, fazer recomendações ou mesmo sugerir mudanças. Mas não peça acesso à administração ou FTP. Isso é ir longe demais.
 
 
@@ -127,7 +158,7 @@ Por favor coloque a tag “modlook” no tópico para que um moderador possa fec
 
 
 Este fórum existe para ajudar aqueles com problemas em seus sites WordPress. Por favor peça opiniões para amigos ou família de modo que os voluntários aqui possam investir seu tempo ajudando aqueles que estão com dificuldades.
- 
+
 Este tópico será fechado segundo as [regras do fórum](https://codex.wordpress.org/pt-br:Bem-vindos_ao_F%C3%B3rum_de_Suporte#Coisas_para_evitar_e_mau_comportamento), e se você precisar de ajuda com qualquer coisa específica, nós o encorajamos a abrir um novo tópico.
 
 ### Discussão sobre GPL
@@ -138,7 +169,7 @@ A discussão se o WordPress e seus temas e plugins são GPL não é algo que con
 
 ### Pedido de Suporte Não-GPL
 Por favor coloque a tag “modlook” no tópico para que um moderador possa fechá-lo.
- 
+
 Desculpe, mas o tema que você escolheu não foi liberado sob a GPL. Produtos assim não são bem-vindos na comunidade WordPress. A Política Oficial do WordPress afirma que todos os plugins e temas que são liberados publicamente são obrigados a aderir a https://wordpress.org/about/gpl/ . Qualquer pedido de suporte para produtos não-GPL são normalmente ignorados, pelo bem da comunidade e de sua liberdade.
 
 
@@ -152,15 +183,15 @@ Por favor coloque a tag “modlook” no tópico para que um moderador possa fec
 
 
 Nesse momento, contas não podem ser excluídas no WordPress.org, atualmente é uma impossibilidade técnica. Você pode editar seu perfil para remover todas as informações, e nós podemos até bloquear sua conta se você quiser, mas não podemos excluí-la.
- 
+
 (Por favor não mencione qualquer lei ou aspectos legais, independente do país, deixe isso para os profissionais)
 
 
 ### Quando você quer avisar o usuário para não editar a folha de estilo do seu tema diretamente
 Não edite arquivos do tema diretamente, caso contrário suas mudanças serão sobrescritas quando o tema for atualizado.
- 
+
 Um modo fácil de adicionar CSS personalizado é instalar o plugin Jetpack e ativar o módulo Custom CSS. Você então adicionará seu CSS personalizado no novo editor de folhas de estilo que aparecerá no seu painel, em Aparência -> Editar CSS.
- 
+
 Como alternativas você pode tanto instalar um plugin de CSS personalizado quanto criar um tema filho.
 
 Se você notar que o site já está usando o Jetpack (veja no código-fonte) você pode economizá-los um passo e usar isto aqui no lugar:
@@ -170,21 +201,20 @@ Visto que você já está usando o Jetpack, um jeito fácil de adicionar CSS per
 ### Quando um usuário precisa fazer mudanças mais significativas e um plugin de CSS personalizado não vai adiantar - é hora de usar um tema filho.
 
 O melhor modo de realizar mudanças como esta em um tema é usar um [tema filho](https://codex.wordpress.org/pt-br:Temas_Filhos), de modo que seus ajustes não sejam sobrescritos quando o tema for atualizado.
- 
+
 ### Quando você quer que um usuário marque seu próprio tópico como resolvido
 Se sua questão foi resolvida, nós adoraríamos que você marcasse este tópico como resolvido na barra lateral direita. Isso ajuda os voluntários a encontrar tópicos que ainda precisam de atenção e mais pessoas receberão ajuda, assim como você possivelmente recebeu.
 
-### Respostas predefinidas para Multisite
+## Respostas predefinidas para Multisite
 ### Problemas criando subsites
 Para criar um subsite no WP Multisite, simplesmente vá até Sites -> Adicionar novo no painel administrativo da Rede. Se você está usando multisite do tipo subdomínio, você NÃO precisa criar o subdominio na sua hospedagem. O multisite fará isso por você usando o curinga de domínio que você configurou na sua conta de hospedagem.
- 
+
 ### Eu quero que todos os meus subsites sejam idênticos em conteúdo exceto por [uma coisa qualquer]
 Uma coisa a ser entendida sobre multisites é que por padrão cada subsite funciona como um site completamente separado inclusive em seus conteúdos. Dito isso, existem alguns plugins com o quais você pode duplicar o conteúdo entre os sites. Procure no repositório por “multiste duplicar conteúdo”. PORÉM, você deverá atentar-se que o Google o penalizará por duplicar conteúdos desta forma.
- 
+
 ### Como usar multisite para uma rede multi-idioma
 Multisite pode ser um modo útil para configurar sites multi-idioma. No entanto, multisite é mais complicado que um site WP simples, então você terá que verificar as habilidades necessárias para criar e gerenciar uma rede multisite antes de mergulhar nisso. Existem [instruções passo-a-passo](https://codex.wordpress.org/pt-br:Crie_uma_Rede) para configurar um multisite no codex do WP, mas você pode achar útil este artigo sobre [como configurar uma rede multi-idioma](http://wplang.org/wordpress-multisite-multilingual/) [em inglês].
 
 
 
 ## Violações de regras
-
