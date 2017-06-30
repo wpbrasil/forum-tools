@@ -125,10 +125,9 @@ A equipe do WordPress fornece [uma lista de recomendações de serviços de hosp
 
 
 ### Oferecendo Pagamento/Contratação
-Por favor coloque a tag “modlook” no tópico para que um moderador possa fechá-lo.
+O WordPress é um software gratuito e este fórum é gratuito também, então não encorajamos a utilização dos fóruns para oferecer pagamentos.
 
-Por favor tente http://jobs.wordpress.net/ ou http://directory.codepoet.com/ e não aceite qualquer oferta de contratação publicada neste fórum.
-
+Por favor tente http://jobs.wordpress.net/ ou https://hangarwp.com/.
 
 Este tópico será fechado seguindo as Regras do Fórum.
 
