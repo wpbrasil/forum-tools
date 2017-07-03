@@ -92,7 +92,7 @@ Seria melhor resolver o seu problema atual. Você poderia descrever o que está 
 
 
 ### Blog do WordPress.com
-Devido as diferenças entre os blogs hospedados no wordpress.com e as versões hospedadas e instaladas pelo próprio usuário do WordPress, que nós prestamos suporte aqui, você provavelmente deveria perguntar no [Suporte do WordPress.com](https://en.support.wordpress.com/contact/).
+Devido as diferenças entre os blogs hospedados no wordpress.com e as versões hospedadas e instaladas pelo próprio usuário do WordPress, que nós prestamos suporte aqui, você provavelmente deveria perguntar no [Suporte do WordPress.com](https://br.support.wordpress.com/).
 
 
 ### Suporte de Plugin/Tema em um fórum não específico do Plugin/Tema
