@@ -189,13 +189,9 @@ Nesse momento, contas não podem ser excluídas no WordPress.org, atualmente é 
 ### Quando você quer avisar o usuário para não editar a folha de estilo do seu tema diretamente
 Não edite arquivos do tema diretamente, caso contrário suas mudanças serão sobrescritas quando o tema for atualizado.
 
-Um modo fácil de adicionar CSS personalizado é instalar o plugin Jetpack e ativar o módulo Custom CSS. Você então adicionará seu CSS personalizado no novo editor de folhas de estilo que aparecerá no seu painel, em Aparência -> Editar CSS.
+Se você estiver utilizando o WordPress 4.7+, no menu Aparência > Personalizar > “CSS adicional”, você pode adicionar CSS no seu tema de forma mais fácil.
 
 Como alternativas você pode tanto instalar um plugin de CSS personalizado quanto criar um tema filho.
-
-Se você notar que o site já está usando o Jetpack (veja no código-fonte) você pode economizá-los um passo e usar isto aqui no lugar:
-
-Visto que você já está usando o Jetpack, um jeito fácil de adicionar CSS personalizado é ativar o módulo CSS Personalizado. Você então adicionará seu CSS personalizado no novo editor de folhas de estilo que aparecerá no seu painel, em Aparência -> Editar CSS.
 
 ### Quando um usuário precisa fazer mudanças mais significativas e um plugin de CSS personalizado não vai adiantar - é hora de usar um tema filho.
 
