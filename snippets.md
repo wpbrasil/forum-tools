@@ -31,6 +31,9 @@
 * [Eu quero que todos os meus subsites sejam idênticos em conteúdo exceto por [uma coisa qualquer]](#eu-quero-que-todos-os-meus-subsites-sejam-idênticos-em-conteúdo-exceto-por-uma-coisa-qualquer)
 * [Como usar multisite para uma rede multi-idioma](#como-usar-multisite-para-uma-rede-multi-idioma)
 
+## Violações de regras
+* [Não tente furar a fila](#não-tente-furar-a-fila)
+
 ## Perguntas Comuns
 
 ### Não é possível acessar o painel
@@ -213,3 +216,10 @@ Multisite pode ser um modo útil para configurar sites multi-idioma. No entanto,
 
 
 ## Violações de regras
+### Não tente furar a fila
+Não tente trazer seu tópico de volta para o topo da lista, isto não ajuda seu tópico a ser notado. Os voluntários que tentam responder as perguntas olham primeiro aquelas que não tem nenhuma resposta. Se você cria uma resposta tentando trazê-lo de volta, isso faz com que ele desapareça da lista de “Tópicos sem resposta”.
+
+Em algumas horas vou excluir sua resposta e a minha para que seu tópico volte para a lista de Sem Resposta, onde há uma chance maior de você receber ajuda.
+
+Tenha em mente que esse fórum é mantido por voluntários e que estes vão te ajudar assim que puder.
+
