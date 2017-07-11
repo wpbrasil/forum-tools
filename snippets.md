@@ -78,7 +78,7 @@ Se você não conseguiu resolver o problema nem desabilitando seus plugins e tem
 
 
 ### Hackeado/Invadido?
-Mantenha-se calmo e siga cuidadosamente [esse guia](https://codex.wordpress.org/pt-br:Site_Invadido). Quando você tiver terminado talvez você queira implementar algumas (se não todas) as medidas de segurança recomendadas.
+Mantenha-se calmo e siga cuidadosamente [esse guia](https://codex.wordpress.org/pt-br:Site_Invadido). Quando você tiver terminado talvez você queira implementar algumas (se não todas) as [medidas de segurança recomendadas](https://codex.wordpress.org/pt-br:Blindando_o_WordPress).
 
 ### Limite de Upload de Arquivo
 O tamanho máximo de upload é controlado pelo servidor, não pelo WordPress. Aqui estão três formas de aumentar o limite de upload:
