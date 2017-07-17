@@ -13,7 +13,7 @@
 * [Suporte de Plugin/Tema em um fórum não específico do Plugin/Tema](#suporte-de-plugintema-em-um-fórum-não-específico-do-plugintema)
 * [Pedindo Suporte para um Produto Comercial](#pedindo-suporte-para-um-produto-comercial)
 * [Serviço de Hospedagem Grátis](#serviço-de-hospedagem-grátis)
-* [Recomendações de Hospedagem](#recomenda-es-de-hospedagem)
+* [Recomendações de Hospedagem](#recomendações-de-hospedagem)
 * [Oferecendo Pagamento/Contratação](#oferecendo-pagamentocontratação)
 * [Chegando aos Limites do Suporte Grátis](#chegando-aos-limites-do-suporte-grátis)
 * [Pedindo Acesso Administrativo](#pedindo-acesso-administrativo)
