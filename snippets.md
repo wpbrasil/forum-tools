@@ -10,6 +10,7 @@
 * [Limite de Upload de Arquivo](#limite-de-upload-de-arquivo)
 * [Downgrading/Reversão de atualização de versão](#downgradingreversão-de-atualização-de-versão)
 * [Blog do WordPress.com](#blog-do-wordpresscom)
+* [Alterar o número de posts por página](#alterar-o-número-de-posts-por-página)
 * [Suporte de Plugin/Tema em um fórum não específico do Plugin/Tema](#suporte-de-plugintema-em-um-fórum-não-específico-do-plugintema)
 * [Pedindo Suporte para um Produto Comercial](#pedindo-suporte-para-um-produto-comercial)
 * [Serviço de Hospedagem Grátis](#serviço-de-hospedagem-grátis)
@@ -100,6 +101,8 @@ O WordPress.ORG não fornece hospedagem para sites, ele fornece o software para 
 
 Pelo o que você descreveu, o seu problema deve ser com o WordPress.COM. Assim, você provavelmente deveria perguntar no [Suporte do WordPress.com](https://br.support.wordpress.com/).
 
+### Alterar o número de posts por página
+Você pode alterar o número máximo de posts por página por meio do menu “Configurações >> Leitura” no campo “As páginas do blog mostram no máximo”.
 
 ### Suporte de Plugin/Tema em um fórum não específico do Plugin/Tema
 Recomendo que você pergunte no [URL do fórum do plugin/tema] para que os desenvolvedores do plugin/tema e a comunidade de suporte possam lhe ajudar com isso.
