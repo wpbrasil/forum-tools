@@ -136,7 +136,7 @@ A equipe do WordPress fornece [uma lista de recomendações de serviços de hosp
 ### Oferecendo Pagamento/Contratação
 O WordPress é um software gratuito e este fórum é gratuito também, então não encorajamos a utilização dos fóruns para oferecer pagamentos.
 
-Por favor tente http://jobs.wordpress.net/ ou https://hangarwp.com/.
+Por favor tente sites especializados como o http://jobs.wordpress.net/ e o https://hangarwp.com/. Você também podem procurar um desenvolvedor em um [meetup](https://br.wordpress.org/2017/05/01/wordpress-meetups-o-que-sao-estes-encontros-da-comunidade-wordpress/).
 
 Este tópico será fechado seguindo as Regras do Fórum.
 
