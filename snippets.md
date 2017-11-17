@@ -46,7 +46,7 @@ Se isso não resolver, acesse seu servidor via [SFTP ou FTP](https://codex.wordp
 ### Erro relacionado a plugin ou conflito de tema
 Tente desativar todos os plugins. Se isso resolver, reative-os um a um até saber qual deles está causando o problema.
 
-Se isso não resolver, tente ativar um tema padrão da sua versão do WordPress para verificar se é um específico do tema (funções do tema também podem interferir, assim como os plugins).
+Se isso não resolver, tente ativar um tema padrão da sua versão do WordPress para verificar se é um erro específico do tema (funções do tema também podem interferir, assim como os plugins).
 
 ### Erro relacionado a arquivos do próprio WordPress que estão faltando ou corrompidos
 Tente fazer o [download do WordPress](https://br.wordpress.org/) novamente, acesse seu servidor via [SFTP ou FTP](https://codex.wordpress.org/pt-br:Clientes_FTP), ou por algum gerenciador de arquivos que a sua empresa de hospedagem forneça, exclua e então substitua sua cópia de tudo com os arquivos que você baixou, exceto o arquivo ‘wp-config.php’ e o diretório ‘/wp-content/’. Isso irá substituir todos os seus arquivos do Wordpress sem nenhum prejuízo ao seu conteúdo ou configurações.
