@@ -26,7 +26,7 @@
 * [Quando você quer avisar o usuário para não editar a folha de estilo do seu tema diretamente](#quando-você-quer-avisar-o-usuário-para-não-editar-a-folha-de-estilo-do-seu-tema-diretamente)
 * [Quando um usuário precisa fazer mudanças mais significativas e um plugin de CSS personalizado não vai adiantar - é hora de usar um tema filho.](#quando-um-usuário-precisa-fazer-mudanças-mais-significativas-e-um-plugin-de-css-personalizado-não-vai-adiantar---é-hora-de-usar-um-tema-filho)
 * [Quando você quer que um usuário marque seu próprio tópico como resolvido](#quando-você-quer-que-um-usuário-marque-seu-próprio-tópico-como-resolvido)
-* [Quando você quer que um usuário compartilhe a solução que ele mesmo encontrou para o seu problema](#quando-você-quer-que-um usuário-compartilhe-a-solução-que-ele-mesmo-encontrou-para-o-seu-problema)
+* [Quando você quer que um usuário compartilhe a solução que ele mesmo encontrou para o seu problema](#quando-você-quer-que-um-usuário-compartilhe-a-solução-que-ele-mesmo-encontrou-para-o-seu-problema)
 
 ## Respostas predefinidas para Multisite
 * [Problemas criando subsites](#problemas-criando-subsites)
