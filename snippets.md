@@ -85,7 +85,7 @@ Para ativar o debug no seu site é preciso adicionar o seguinte código no arqui
 
 Depois disso, tente reproduzir o erro novamente e verifique se foi gerado o arquivo debug.log na pasta wp-content. Por fim, veja as últimas linhas do arquivo debug.log e poste elas aqui.
 
-**Lembre-se de desativar o modo de depuracao depois que o seu problema for resolvido**.
+**Lembre-se de desativar o modo de depuração depois que o seu problema for resolvido**.
 
 ### Hackeado/Invadido?
 Mantenha-se calmo e siga cuidadosamente [esse guia](https://codex.wordpress.org/pt-br:Site_Invadido). Quando você tiver terminado talvez você queira implementar algumas (se não todas) as [medidas de segurança recomendadas](https://codex.wordpress.org/pt-br:Blindando_o_WordPress).
