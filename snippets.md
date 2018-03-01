@@ -72,12 +72,20 @@ Erros internos do servidor (erro 500) são frequentemente causados por conflitos
 
 Se isso não resolver, acesse seu servidor via SFTP ou FTP, ou por algum gerenciador de arquivos que a sua empresa de hospedagem forneça, navegue até ‘wp-content/themes/’ e renomeie o diretório do tema atualmente ativo. Isso forçará a ativação do tema padrão e, com alguma sorte, verificar um problema específico do tema (funções do tema também podem interferir, assim como os plugins).
 
-
 Se isso não resolver, é possível que uma regra no `.htaccess` possa ser a origem do problema. Para verificar, acesse seu servidor via SFTP ou FTP, ou por algum gerenciador de arquivos que a sua empresa de hospedagem forneça, e renomeie o arquivo `.htaccess`. Se você não pude encontrar o arquivo `.htaccess` tenha certeza de que configuou seu cliente de SFTP ou FTP para visualizar arquivos ocultos.
-
 
 Se você não conseguiu resolver o problema nem desabilitando seus plugins e tema, ou renomeando seu arquivo .htaccess, nós ainda podemos ajudar, mas serão necessárias mensagens de erro mais detalhadas. Erros internos do servidor são frequentemente mais detalhados nos logs de erro do servidor. Se você tem acesso aos logs de erro do servidor, gere o erro novamente, anote o dia e a hora e então imediatamente verifique o arquivo de log por qualquer erro ocorrido naquele período. Se você não tem acesso aos logs, peça ao seu serviço de hospedagem que procure-os por você.
 
+#### Ativar o modo de depuração (debug)
+Para ativar o debug no seu site é preciso adicionar o seguinte código no arquivo wp-config:
+
+`define( 'WP_DEBUG', true );`
+
+`define( 'WP_DEBUG_LOG', true );`
+
+Depois disso, tente reproduzir o erro novamente e verifique se foi gerado o arquivo debug.log na pasta wp-content. Por fim, veja as últimas linhas do arquivo debug.log e poste elas aqui.
+
+**Lembre-se de desativar o modo de depuracao depois que o seu problema for resolvido**.
 
 ### Hackeado/Invadido?
 Mantenha-se calmo e siga cuidadosamente [esse guia](https://codex.wordpress.org/pt-br:Site_Invadido). Quando você tiver terminado talvez você queira implementar algumas (se não todas) as [medidas de segurança recomendadas](https://codex.wordpress.org/pt-br:Blindando_o_WordPress).
