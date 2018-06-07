@@ -144,7 +144,7 @@ A equipe do WordPress fornece [uma lista de recomendações de serviços de hosp
 ### Oferecendo Pagamento/Contratação
 O WordPress é um software gratuito e este fórum é gratuito também, então não encorajamos a utilização dos fóruns para oferecer pagamentos.
 
-Por favor tente sites especializados como o http://jobs.wordpress.net/ e o https://hangarwp.com/. Você também podem procurar um desenvolvedor em um [meetup](https://br.wordpress.org/2017/05/01/wordpress-meetups-o-que-sao-estes-encontros-da-comunidade-wordpress/).
+Por favor tente sites especializados como o http://jobs.wordpress.net/. Você também podem procurar um desenvolvedor em um [meetup](https://br.wordpress.org/2017/05/01/wordpress-meetups-o-que-sao-estes-encontros-da-comunidade-wordpress/).
 
 Este tópico será fechado seguindo as Regras do Fórum.
 
@@ -152,7 +152,7 @@ Este tópico será fechado seguindo as Regras do Fórum.
 ### Chegando aos Limites do Suporte Grátis
 Neste ponto chegamos aos limites do que a maioria da comunidade aqui tem a intenção de oferecer em seu tempo livre (todos aqui são voluntários). Considere contratar alguém para quem você possa dar acesso direto ao seu site a fim de um conserto mais eficiente do que podemos oferecer aqui.
 
-Por favor tente http://jobs.wordpress.net/ ou https://hangarwp.com/ e não aceite qualquer oferta de contratação publicada neste fórum. Você também podem procurar um desenvolvedor em um [meetup](https://br.wordpress.org/2017/05/01/wordpress-meetups-o-que-sao-estes-encontros-da-comunidade-wordpress/).
+Por favor tente sites especializados como o http://jobs.wordpress.net/ e não aceite qualquer oferta de contratação publicada neste fórum. Você também podem procurar um desenvolvedor em um [meetup](https://br.wordpress.org/2017/05/01/wordpress-meetups-o-que-sao-estes-encontros-da-comunidade-wordpress/).
 
 Nós manteremos este tópico aberto, a não ser que ele se distancie muito do assunto, para o caso de alguém da comunidade querer oferecer maior ajuda de graça.
 
