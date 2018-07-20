@@ -87,6 +87,9 @@ Depois disso, tente reproduzir o erro novamente e verifique se foi gerado o arqu
 
 **Lembre-se de desativar o modo de depuração depois que o seu problema for resolvido**.
 
+#### Utilizar um plugin de verificação
+Existem plugins que verificam erros de configuração e problemas comuns no WordPress. Um deles é o [Health Check & Troubleshooting](https://wordpress.org/plugins/health-check/), que foi desenvolvido pela própria comunidade do WordPress.
+
 ### Hackeado/Invadido?
 Mantenha-se calmo e siga cuidadosamente [esse guia](https://codex.wordpress.org/pt-br:Site_Invadido). Quando você tiver terminado talvez você queira implementar algumas (se não todas) as [medidas de segurança recomendadas](https://codex.wordpress.org/pt-br:Blindando_o_WordPress).
 
