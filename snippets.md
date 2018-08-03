@@ -221,7 +221,7 @@ O melhor modo de realizar mudanças como esta em um tema é usar um [tema filho]
 Se sua questão foi resolvida, nós adoraríamos que você marcasse este tópico como resolvido na barra lateral direita. Isso ajuda os voluntários a encontrar tópicos que ainda precisam de atenção e mais pessoas receberão ajuda, assim como você possivelmente recebeu.
 
 ### Quando você quer que um usuário compartilhe a solução que ele mesmo encontrou para o seu problema
-Você marcou o tópico como resolvido antes de alguém responder. Acredito que você achou a solução para o problema que estava enfrentando. Por isso, seria interessante seria você compartilhar o que fez. Dessa forma, outras pessoas com o mesmo problema podem encontrar ajuda no seu tópico.
+Você marcou o tópico como resolvido antes de alguém responder. Acredito que você achou a solução para o problema que estava enfrentando. Por isso, seria interessante você compartilhar o que fez. Dessa forma, outras pessoas com o mesmo problema podem encontrar ajuda no seu tópico.
 
 ## Respostas predefinidas para Multisite
 ### Problemas criando subsites
