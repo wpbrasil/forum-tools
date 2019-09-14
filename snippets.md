@@ -1,5 +1,7 @@
 # Snippets para ajudar responder perguntas e violações de regras
 
+Os snippets foram baseados e traduzidos do [handbook de suporte do WordPress internacional](https://make.wordpress.org/support/handbook/giving-good-support/pre-defined-replies/).
+
 ## Perguntas comuns
 * [Não é possível acessar o painel](#não-é-possível-acessar-o-painel)
 * [Erro relacionado a plugin ou conflito de tema](#erro-relacionado-a-plugin-ou-conflito-de-tema)
