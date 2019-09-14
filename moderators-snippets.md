@@ -9,6 +9,7 @@ Os snippets foram baseados e traduzidos do [handbook de suporte do WordPress int
 
 * [Profanidades](#profanidades)
 * [Trechos grandes de código](#trechos-grandes-de-código)
+* [Trechos de código não formatados](#trechos-de-código-não-formatados)
 
 ## Snippets
 
@@ -27,3 +28,9 @@ Isso não é um problema tão grande como era antes de ajustarmos o código do f
 Substitua pelo seguinte snippet:
 
 [Trechos de cógigo removido pela moderação, de acordo com as <a href="https://br.wordpress.org/support/boas-vindas/">regras do fórum</a>. Utilize <a href="https://pastebin.com/">Pastebin</a> ou <a href="https://gist.github.com/">Gist</a> para grandes trechos de código, eles funcionam melhor.]
+
+### Trechos de código não formatados
+
+Depois de ajustar o código, coloque:
+
+[Notas da moderação: código corrigido. Coloque um acento grave no começo e outro no fim do seu código ou selecione o código e clique no botão "code"]
