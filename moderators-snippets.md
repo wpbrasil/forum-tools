@@ -38,11 +38,11 @@ Substitua pelo seguinte snippet:
 
 Depois de ajustar o código, coloque:
 
-Código corrigido. Coloque um acento grave no começo e outro no fim do seu código ou selecione o trecho docódigo e clique no botão "code".
+Código corrigido. Coloque um acento grave no começo e outro no fim do seu código ou selecione o trecho do código e clique no botão "code".
 
 ### Assinaturas
 
-Você pode excluir ou simplesmente ignorar e preferir.
+Você pode excluir ou simplesmente ignorar se preferir.
 
 Substitua pelo seguinte snippet:
 
